@@ -103,7 +103,8 @@ p {
 }
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-.col-xs-12{height:2000px;
+.col-xs-12{
+  height:2000px;
  padding-left: 75px;
     padding-right: 75px;
 }
