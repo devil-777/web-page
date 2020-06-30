@@ -85,7 +85,7 @@ p {
 }
 
 @media (min-width: 1200px) {
-.col-md-12{
+.col-lg-12{
   height:1000px;
 }
 }
@@ -97,13 +97,13 @@ p {
 }
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
-.col-lg-12{
+.col-sm-12{
   height:1000px;
 }
 }
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-.col-xs-12{height:1000px;
+.col-xs-12{height:2000px;
  padding-left: 75px;
     padding-right: 75px;
 }
