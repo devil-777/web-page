@@ -72,8 +72,11 @@ div .row{
   margin: 0px;
 }
 .section{
+  position: relative; 
   border: 2px solid #9900cc;
   background-color: #9900cc;
+  height: 700px;
+  width: 100%;
   padding: 10px;
 }
 h3{
@@ -88,28 +91,33 @@ p {
   padding: 10px;
   overflow: auto;
 }
-
+.section a{
+color: hotpink;
+}
 @media (min-width: 1200px) {
 .col-lg-12{
-  height:1000px;
+  padding: 10px;
 }
 }
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
-.col-md-12{
-  height:1000px;
-}
+  .col-md-4{
+    padding: 10px;
+  }
 }
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-6{
+padding: 10px;
+  }
   .col-sm-12{
-    height:2000px;
+padding: 10px;
   }
 }
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
   .col-xs-12{
-    height:2000px;
+  padding: 10px;
     padding-left: 75px;
     padding-right: 75px;
   }
