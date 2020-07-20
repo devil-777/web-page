@@ -89,8 +89,6 @@ $ajaxUtils.sendGetRequest(
 // *** finish **
 
 
-// Builds HTML for the home page based on categories array
-// returned from the server.
 function buildAndShowHomeHTML (categories) {
 
   // Load home snippet page
